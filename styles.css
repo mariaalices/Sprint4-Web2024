@@ -1,0 +1,85 @@
+.arena {
+    width: 600px;
+    height: 400px;
+    border: 8px solid #ff0000;
+    position: relative;
+    margin: 100px auto;
+}
+
+.robot {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#robot1 {
+    left: 50px;
+    top: 50px;
+}
+
+#robot2 {
+    right: 50px;
+    bottom: 50px;
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stats > div {
+    text-align: center;
+}
+
+.stats h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.stats p {
+    font-size: 16px;
+    margin: 0;
+}
+
+body {
+    background-image: url('arena03.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Para cobrir toda a área do corpo */
+    background-position: center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+}
+
+
+/*deixando o placar mais bonito*/
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px; /* Reduzindo a margem superior */
+    margin-bottom: 10px; /* Reduzindo a margem inferior */
+    background-color: #5b615e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.stats > div {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    background-color: #0e0b0b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.stats h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #ff0000;
+}
+
+.stats p {
+    font-size: 14px;
+    margin: 0;
+    color: #00aeff;
+}
